@@ -1,0 +1,152 @@
+# ==================================================
+# UNIVERSAL .gitignore for Rust, Python, and Java
+# ==================================================
+
+# --------------------
+# RUST
+# --------------------
+# Rust build artifacts
+/target/
+/Cargo.lock
+
+# If you want to commit Cargo.lock for binaries, comment it out above
+# /Cargo.lock
+
+# Backup files from rustfmt or editors
+**/*.rs.bk
+
+# --------------------
+# PYTHON
+# --------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy / pyre / pytype
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# --------------------
+# JAVA
+# --------------------
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ / IntelliJ / Eclipse / NetBeans
+*.ctxt
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+out/
+bin/
+build/
+target/
+nbproject/private/
+.classpath
+.project
+.settings/
+
+# Maven
+.mvn/
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Java archives
+*.jar
+*.war
+*.ear
+
+# --------------------
+# SYSTEM / OS / EDITOR
+# --------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# VS Code / JetBrains / etc
+.vscode/
+.idea/
+
+# Environment files (added)
+.env
+.env.*
+
+# --------------------
+# GIT META
+# --------------------
+# Ignore local git-specific cruft
+.gitignore~
+
